@@ -1,6 +1,6 @@
 require("dotenv").config();
 
-const { default: axios } = require("axios");
+const axios = require("axios");
 const { default: cheerio } = require("cheerio");
 
 const twitter = require("twitter-lite");
